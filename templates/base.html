@@ -13,7 +13,7 @@
 </head>
     <body>
     <nav>
-    <div class="container nav-wrapper">
+    <div class="container nav-wrapper" >
         <a href="/" class="brand-logo">Local Gem</a>
         <ul id="nav-mobile" class="right">
             <li><a href="/">Home</a></li>
@@ -23,29 +23,51 @@
     </div>
     </nav>
     <div class="container">
-        <h2 style="text-align: center">Your Local Marketplace</h2>
+        <h2 style="text-align: center; font-weight: bold">Your Local Marketplace </h2>
+        <h5 style="text-align: right; font-weight: normal; font-style: italic; margin-bottom: 35px">- A Craiglist Web Scraper</h5>
     </div>
     <div class="container">
     <div class="row">
-        <div class="col s4">
+        <div class="col s2">
             <div class="center">
-                <i class="large material-icons" style="color: #EE6E73">flash_on</i>
-                <p>Fast craigslist web scraper</p>
-                <p class="light center">Scrape away right here with a beautiful GUI.</p>
+                <i class="medium material-icons" style="color: #757575">directions_car</i>
+                <p><a href="{% url 'used_cars' %}" >USED CARS</a></p>
+                <!--<p class="light center">Scrape away right here with a beautiful GUI.</p> -->
             </div>
         </div>
-        <div class="col s4">
+        <div class="col s2">
             <div class="center">
-                <i class="large material-icons" style="color: orange">camera</i>
-                <p>Filter your searches</p>
-                <p class="light center">We built in functionality to filter based on pricing.</p>
+                <i class="medium material-icons" style="color: orange">phone_iphone</i>
+                <p><a href="{% url 'electronics' %}" >ELECTRONICS</a></p>
+                <!--<p class="light center">We built in functionality to filter based on pricing.</p> -->
             </div>
         </div>
-        <div class="col s4">
+        <div class="col s2">
             <div class="center">
-                <i class="large material-icons" style="color: blue">chrome_reader_mode</i>
-                <p>A much sexier front-end Craiglist</p>
-                <p class="light ceter">We built this with <3.</p>
+                <i class="medium material-icons" style="color: #EE6E73">shopping_basket</i>
+                <p><a href="{% url 'fashion' %}">FASHION</a></p>
+                <!--<p class="light ceter">We built this with <3.</p> -->
+            </div>
+        </div>
+        <div class="col s2">
+            <div class="center">
+                <i class="medium material-icons" style="color: #66bb6a">group</i>
+                <p><a href="{% url 'jobs' %}">JOBS</a></p>
+                <!--<p class="light ceter">We built this with <3.</p> -->
+            </div>
+        </div>
+         <div class="col s2">
+            <div class="center">
+                <i class="medium material-icons" style="color: #64b5f6">toys</i>
+                <p><a href="{% url 'toys' %}">TOYS</a></p>
+                <!--<p class="light ceter">We built this with <3.</p> -->
+            </div>
+        </div>
+         <div class="col s2">
+            <div class="center">
+                <i class="medium material-icons" style="color: #6a1b9a ">account_balance</i>
+                <p><a href="{% url 'housing' %}">HOUSING</a></p>
+                <!--<p class="light ceter">We built this with <3.</p> -->
             </div>
         </div>
         </div>
