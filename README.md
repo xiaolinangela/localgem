@@ -1,2 +1,2 @@
-#This is Craiglist clone called LocalGem
+#This is Craiglist web scraper called LocalGem
 ![SC](images/localgem.JPG)
